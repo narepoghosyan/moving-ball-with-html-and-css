@@ -1,0 +1,152 @@
+* {
+	margin: 0 auto;
+}
+
+.container {
+	width: 490px;
+	height: 350px;
+	border: 1px solid #600000;
+	margin-top: 100px;
+	overflow: hidden;
+}
+
+.layers {
+	width: 100%;
+	height: 70px;
+}
+
+.one {
+	margin-top: 70px;
+}
+
+.last {
+	background-image: linear-gradient(#D80000, #FF0000);
+}
+
+.three1 {
+	width: 210px;
+	height: 70px;
+	float: left;
+	background-image: linear-gradient(#B00000, #D80000);
+}
+
+.three2 {
+	width: 210px;
+	height: 70px;
+	float: right;
+	background-image: linear-gradient(#B00000, #D80000);
+}
+
+.two1 {
+	width: 140px;
+	height: 70px;
+	float: left;
+	background-image: linear-gradient(#880000, #B00000)
+
+}
+.two2{
+    width: 140px;
+	height: 70px;
+	float: right;
+	background-image: linear-gradient(#880000, #B00000)
+}
+
+.one1 {
+	width: 70px;
+	height: 70px;
+	float: left;
+	background-image: linear-gradient(#600000, #880000)
+}
+
+.one2 {
+	width: 70px;
+	height: 70px;
+	float: right;
+	background-image: linear-gradient(#600000, #880000)
+}
+
+.sharik {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-image: radial-gradient(#880000, #600000);
+	position: relative;
+	right: 245px;
+	animation-name: sharik;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes sharik {
+	0% {
+		right: 245px;
+	}
+	7% {
+		top: 70px;
+		right: 210px;
+	}
+	14% {
+		top: 50px;
+		right: 150px
+	}
+
+	21% {
+		top: 140px;
+		right: 140px;
+		background-image: radial-gradient(#B00000, #880000)
+	}
+	28% {
+		top: 120px;
+		right: 80px;
+	}
+	35% {
+		top: 210px;
+		right: 70px;
+		background-image: radial-gradient(#D80000, #B00000);
+	}
+	42% {
+		top: 190px;
+		right: 10px;
+	}
+	50% {
+		top: 280px;
+		right: 0;
+		background-image: radial-gradient(#FF0000, #D80000);
+	}
+	57% {
+		top: 190px;
+		right: -60px;
+	}
+	64% {
+		top: 210px;
+		right: -70px;
+		background-image: radial-gradient(#D80000, #B00000);
+
+	}
+	70% {
+		top: 120px;
+		right: -130px;
+	}
+	78% {
+		top: 140px;
+		right: -140px;
+		background-image: radial-gradient(#B00000, #880000)
+	}
+	85% {
+		top: 50px;
+		right: -200px;
+	}
+	92% {
+		top: 70px;
+		right: -210px;
+		background-image: radial-gradient(#B00000, #880000)
+	}
+
+	100% {
+		top: 0;
+		right: -245px;
+		background-image: radial-gradient(#880000, #600000)
+	}
+
+
+}
